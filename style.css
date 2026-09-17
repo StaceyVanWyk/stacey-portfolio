@@ -69,8 +69,11 @@ section h2 {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
+
     color: #ffffff;
+
     text-decoration: none;
+
     letter-spacing: 1px;
 }
 
@@ -84,13 +87,17 @@ section h2 {
 .site-header nav {
     display: flex;
     align-items: center;
+
     gap: 25px;
 }
 
 .site-header nav a {
     color: #cbd5e1;
+
     text-decoration: none;
+
     font-size: 0.95rem;
+
     transition: color 0.3s ease;
 }
 
@@ -105,9 +112,11 @@ section h2 {
     padding: 10px 18px;
 
     background-color: #168cff;
+
     color: #ffffff;
 
     border-radius: 7px;
+
     text-decoration: none;
 
     font-size: 0.9rem;
@@ -117,6 +126,7 @@ section h2 {
 
 .cv-button:hover {
     background-color: #38bdf8;
+
     transform: translateY(-2px);
 }
 
@@ -129,6 +139,7 @@ section h2 {
     min-height: 600px;
 
     display: flex;
+
     align-items: center;
 
     padding: 35px 5%;
@@ -136,12 +147,15 @@ section h2 {
 
 .hero-content {
     width: 100%;
+
     max-width: 1200px;
 
     margin: 0 auto;
 
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
 
     gap: 40px;
@@ -154,22 +168,27 @@ section h2 {
 
 .hero-text {
     flex: 1;
+
     max-width: 680px;
 }
 
 .intro {
     color: #cbd5e1;
+
     font-size: 1.35rem;
+
     margin-bottom: 8px;
 }
 
 .hero-text h1 {
     font-size: 4.5rem;
+
     line-height: 1.05;
 
     margin-bottom: 15px;
 
     white-space: nowrap;
+
     font-weight: 700;
 }
 
@@ -224,20 +243,22 @@ section h2 {
 }
 
 
-/* Primary Button */
+/* Primary */
 
 .primary-button {
     background-color: #168cff;
+
     color: #ffffff;
 }
 
 .primary-button:hover {
     background-color: #38bdf8;
+
     transform: translateY(-3px);
 }
 
 
-/* Secondary Button */
+/* Secondary */
 
 .secondary-button {
     border: 1px solid #168cff;
@@ -262,6 +283,7 @@ section h2 {
 
 .social-links {
     display: flex;
+
     gap: 20px;
 }
 
@@ -288,10 +310,13 @@ section h2 {
     flex: 0 0 450px;
 
     width: 450px;
+
     height: 520px;
 
     display: flex;
+
     align-items: center;
+
     justify-content: center;
 }
 
@@ -302,6 +327,7 @@ section h2 {
     position: absolute;
 
     width: 400px;
+
     height: 400px;
 
     background: #168cff;
@@ -318,6 +344,7 @@ section h2 {
 
 .hero-image img {
     width: 450px;
+
     height: 520px;
 
     display: block;
@@ -485,10 +512,13 @@ section h2 {
 
 .project-icon {
     width: 45px;
+
     height: 45px;
 
     display: flex;
+
     align-items: center;
+
     justify-content: center;
 
     margin-bottom: 20px;
@@ -571,6 +601,7 @@ section h2 {
 
 .project-image {
     width: 100%;
+
     height: 180px;
 
     margin-bottom: 22px;
@@ -584,6 +615,7 @@ section h2 {
 
 .project-image img {
     width: 100%;
+
     height: 100%;
 
     display: block;
@@ -819,11 +851,13 @@ footer {
         flex: 0 0 380px;
 
         width: 380px;
+
         height: 470px;
     }
 
     .hero-image img {
         width: 380px;
+
         height: 470px;
     }
 
@@ -886,14 +920,15 @@ footer {
         flex: none;
 
         width: 350px;
+
         height: 430px;
     }
 
     .hero-image img {
         width: 350px;
+
         height: 430px;
     }
-
 }
 
 
@@ -904,28 +939,24 @@ footer {
 @media (max-width: 600px) {
 
     section {
-        padding: 65px 20px;
+        padding: 50px 20px;
     }
 
 
-    /* Header */
+    /* =========================
+       HEADER
+    ========================= */
 
     .site-header {
-        padding: 15px 20px;
+        padding: 14px 15px;
 
         justify-content: center;
+
+        gap: 12px;
     }
 
     .logo {
         font-size: 1.5rem;
-    }
-
-    .site-header nav {
-        gap: 10px;
-    }
-
-    .site-header nav a {
-        font-size: 0.75rem;
     }
 
     .cv-button {
@@ -934,75 +965,152 @@ footer {
         font-size: 0.75rem;
     }
 
+    .site-header nav {
+        width: 100%;
 
-    /* Hero */
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    .site-header nav a {
+        font-size: 0.75rem;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
 
     #hero {
         min-height: auto;
 
-        padding: 70px 20px;
+        padding: 45px 20px 30px;
+    }
+
+    .hero-content {
+        gap: 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .intro {
+        font-size: 1rem;
+
+        margin-bottom: 6px;
     }
 
     .hero-text h1 {
-        font-size: 2.7rem;
+        font-size: 2.6rem;
+
+        line-height: 1.1;
 
         white-space: normal;
+
+        margin-bottom: 12px;
     }
 
     .hero-text h2 {
         font-size: 1.2rem;
+
+        margin-bottom: 20px;
     }
 
     .hero-description {
         font-size: 0.9rem;
+
+        line-height: 1.6;
+
+        margin-bottom: 25px;
     }
+
+
+    /* =========================
+       HERO BUTTONS
+    ========================= */
 
     .hero-buttons {
         flex-direction: column;
 
         width: 100%;
 
-        max-width: 280px;
+        max-width: 320px;
+
+        gap: 12px;
+
+        margin-bottom: 22px;
     }
 
     .hero-buttons a {
-        text-align: center;
-
         width: 100%;
+
+        text-align: center;
     }
+
+
+    /* =========================
+       SOCIAL LINKS
+    ========================= */
 
     .social-links {
         justify-content: center;
 
-        gap: 18px;
+        gap: 20px;
     }
 
+
+    /* =========================
+       HERO IMAGE
+    ========================= */
+
     .hero-image {
-        width: 280px;
-        height: 360px;
+        width: 260px;
+
+        height: 330px;
+
+        flex: none;
+
+        margin-top: 5px;
     }
 
     .hero-image img {
-        width: 280px;
-        height: 360px;
+        width: 260px;
+
+        height: 330px;
+    }
+
+    .image-glow {
+        width: 260px;
+
+        height: 260px;
+
+        filter: blur(100px);
     }
 
 
-    /* Projects */
+    /* =========================
+       PROJECTS
+    ========================= */
 
     .project-grid {
         grid-template-columns: 1fr;
     }
 
 
-    /* Education */
+    /* =========================
+       EDUCATION
+    ========================= */
 
     .education-list {
         grid-template-columns: 1fr;
     }
 
 
-    /* Contact */
+    /* =========================
+       CONTACT
+    ========================= */
 
     .contact-buttons {
         flex-direction: column;
@@ -1017,4 +1125,5 @@ footer {
 
         text-align: center;
     }
+
 }
