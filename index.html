@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Stacey Van Wyk - Junior Software Developer and Software Development Student.">
+
     <link rel="stylesheet" href="style.css">
+
     <title>Stacey Van Wyk | Junior Software Developer</title>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <!-- ================= HEADER ================= -->
 
-        <h1>Stacey Van Wyk</h1>
+    <header class="site-header">
 
-        <p>Junior Software Developer | Software Development Student</p>
+        <a href="#hero" class="logo">SVW</a>
 
-        <!-- Navigation -->
         <nav>
             <a href="#hero">Home</a>
             <a href="#about">About</a>
@@ -28,366 +31,577 @@
             <a href="#contact">Contact</a>
         </nav>
 
+        <a href="Stacey-Van-Wyk-CV.pdf" class="cv-button" download>
+            Download CV
+        </a>
+
     </header>
 
 
-    <!-- Main Content -->
     <main>
 
-        <!-- Hero Section -->
+        <!-- ================= HERO ================= -->
+
         <section id="hero">
 
-            <p>Hi, I'm</p>
+            <div class="hero-content">
 
-            <h2>Stacey Van Wyk</h2>
+                <div class="hero-text">
 
-            <h3>Junior Software Developer</h3>
+                    <p class="intro">Hi, I'm</p>
 
-            <p>
-                I build practical applications while developing my skills
-                across front-end, back-end and software engineering.
-            </p>
+                    <h1>
+                        Stacey <span>Van Wyk</span>
+                    </h1>
 
-            <a href="#projects">View My Projects</a>
-            <a href="#contact">Contact Me</a>
+                    <h2>Junior Software Developer</h2>
+
+                    <p class="hero-description">
+                        I build practical applications while developing my
+                        skills across front-end, back-end and software
+                        engineering.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="primary-button">
+                            View My Projects →
+                        </a>
+
+                        <a href="#contact" class="secondary-button">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/StaceyVanWyk"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/stacey-van-wyk-52507924a"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+
+                        <a href="mailto:svanwyk722@gmail.com">
+                            Email
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="image-glow"></div>
+
+                    <img src="images/stacey-profile.png"
+                        alt="Stacey Van Wyk">
+
+                </div>
+
+            </div>
 
         </section>
 
 
-        <!-- About Section -->
-       <section id="about">
-    <h2>About Me</h2>
+        <!-- ================= ABOUT ================= -->
 
-    <p>
-        I am a software development student passionate about building
-        practical applications and solving real-world problems through
-        technology. I enjoy learning new technologies, working on projects,
-        and continuously improving my software development skills.
-    </p>
+        <section id="about">
 
-    <p>
-        My background in administration and customer service has helped me
-        develop strong communication, organisation and problem-solving skills,
-        which I bring into my work as a developer.
-    </p>
-</section>
-
-
-   <!-- Skills Section -->
-<section id="skills">
-    <h2>My Skills</h2>
-
-    <p>
-        Technologies and tools I am learning and using to build
-        software applications.
-    </p>
-
-    <div class="skill-category">
-        <h3>Programming Languages</h3>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C#</li>
-            <li>JavaScript</li>
-        </ul>
-    </div>
-
-    <div class="skill-category">
-        <h3>Web Development</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-        </ul>
-    </div>
-
-    <div class="skill-category">
-        <h3>Databases & Tools</h3>
-        <ul>
-            <li>SQL</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Docker</li>
-        </ul>
-    </div>
-
-    <div class="skill-category">
-        <h3>Frameworks</h3>
-        <ul>
-            <li>.NET MAUI</li>
-        </ul>
-    </div>
-</section>
-<!-- Projects Section -->
-<section id="projects">
- <h2>Projects</h2> 
-   <p>A selection of projects I have built while developing my
-    software engineering skills.
-   </p>
-   <div class="project-grid">
-    <article>
-        <h3>AI Presentation Coach</h3>
-        <p>A mobile application designed to help users practise
-           presentations and build confidence when speaking.  
-        </p>
-
-        <p>
-            <strong>Technologies</strong>
-            C#, .NET MAUI, 
-        </p>
-        <a href="#" target="_blank">View Project on GitHub</a>
-    </article>
-    <article>
-            <h3>CyberGuard AI</h3>
+            <h2>About Me</h2>
 
             <p>
-                A cybersecurity dashboard that analyses security logs,
-                identifies potential threats and generates security reports.
+                I am a software development student passionate about building
+                practical applications and solving real-world problems through
+                technology. I enjoy learning new technologies, working on
+                projects, and continuously improving my software development
+                skills.
             </p>
 
             <p>
-                <strong>Technologies:</strong>
-                Python, Streamlit, Pandas, Plotly
+                My background in administration and customer service has helped
+                me develop strong communication, organisation and
+                problem-solving skills, which I bring into my work as a
+                developer.
             </p>
 
-            <a href="#" target="_blank">View  on GitHub</a>
-        </article>
+        </section>
 
 
-        <article>
-            <h3>SmartDevices</h3>
+        <!-- ================= SKILLS ================= -->
 
-            <p>
-                A C# smart-home simulation demonstrating object-oriented
-                programming principles and unit testing.
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <p class="section-intro">
+                Technologies and tools I am learning and using to build
+                software applications.
             </p>
 
-            <p>
-                <strong>Technologies:</strong>
-                C#, .NET, xUnit
+
+            <div class="skill-category">
+
+                <h3>Programming Languages</h3>
+
+                <div class="skill-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>Web Development</h3>
+
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>React</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>Databases &amp; Tools</h3>
+
+                <div class="skill-tags">
+                    <span>SQL</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Docker</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>Frameworks</h3>
+
+                <div class="skill-tags">
+                    <span>.NET MAUI</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <p class="section-intro">
+                A selection of projects I have built while developing my
+                software engineering skills.
             </p>
 
-            <a href="https://github.com/StaceyVanWyk/SmartDevices"
-               target="_blank">
-                View on GitHub
-            </a>
-        </article>
 
-   </div>
+            <div class="project-grid">
 
-</section>
 
-        <!-- Experience Section -->
+                <!-- Project 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <image src="images/ai-presentation-coach.png"
+         alt="AI Presentation Coach application">
+
+                        </image>
+                    </div>
+
+                    <h3>AI Presentation Coach</h3>
+
+                    <p>
+                        A mobile application designed to help users practise
+                        presentations and build confidence when speaking.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>C#</span>
+                        <span>.NET MAUI</span>
+                        <span>XAML</span>
+                    </div>
+
+                    <a href="https://github.com/StaceyVanWyk/AI-PRESENTATION-COACH.git" target="_blank">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>CyberGuard AI</h3>
+
+                    <p>
+                        A cybersecurity dashboard that analyses security logs,
+                        identifies potential threats and generates security
+                        reports.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>Pandas</span>
+                        <span>Plotly</span>
+                    </div>
+
+                    <a href="https://github.com/StaceyVanWyk/ai-cyber-agent.git" target="_blank">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+
+                <!-- Project 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <image src="images/smartDevice.png"
+                        ></image>
+                        
+                    </div>
+
+                    <h3>SmartDevices</h3>
+
+                    <p>
+                        A C# smart-home simulation demonstrating
+                        object-oriented programming principles and unit
+                        testing.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>xUnit</span>
+                    </div>
+
+                    <a href="https://github.com/StaceyVanWyk/SmartDevices"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
         <section id="experience">
 
             <h2>Experience</h2>
 
-            <article>
-                <h3>Software Engineering Student</h3>
+            <p class="section-intro">
+                My professional and software development experience.
+            </p>
 
-                <p>
-                    WeThinkCode_
-                </p>
 
-                <p>
-                    September 2024 - December 2025
-                </p>
+            <div class="experience-list">
 
-                <p>
-                    Developed software projects while working with
-                    programming, databases, testing, version control
-                    and software engineering practices.
-                </p>
-            </article>
 
-            <article>
-                <h3>Administrator</h3>
+                <article class="experience-card">
 
-                <p>
-                    FPS Properties
-                </p>
+                    <h3>Software Engineering Student</h3>
 
-                <p>
-                    June 2015 - December 2018
-                </p>
+                    <p class="company">
+                        WeThinkCode_
+                    </p>
 
-                <p>
-                    Provided professional client support, handled
-                    administrative tasks, communicated with clients
-                    effectively, and ensured assigned tasks were
-                    completed accurately and efficiently.
-                </p>
-            </article>
+                    <p class="date">
+                        September 2024 - December 2025
+                    </p>
 
-            <article>
-                <h3>Receptionist</h3>
+                    <p>
+                        Developed software projects while working with
+                        programming, databases, testing, version control and
+                        software engineering practices.
+                    </p>
 
-                <p>
-                    Bowarts Properties
-                </p>
+                </article>
 
-                <p>
-                    January 2013 - May 2015
-                </p>
 
-                <p>
-                    Gained professional experience in administration,
-                    organisation, communication and working with clients.
-                </p>
-            </article>
+                <article class="experience-card">
 
-            <article>
-                <h3>Cashier</h3>
+                    <h3>Administrator</h3>
 
-                <p>
-                    Cash Crusaders
-                </p>
+                    <p class="company">
+                        FPS Properties
+                    </p>
 
-                <p>
-                    January 2012 - December 2012
-                </p>
+                    <p class="date">
+                        June 2015 - December 2018
+                    </p>
 
-                <p>
-                    Developed strong customer service and communication
-                    skills while assisting customers and processing
-                    transactions.
-                </p>
-            </article>
+                    <p>
+                        Provided professional client support, handled
+                        administrative tasks, communicated with clients
+                        effectively, and ensured assigned tasks were completed
+                        accurately and efficiently.
+                    </p>
 
-            <article>
-                <h3>Cashier</h3>
+                </article>
 
-                <p>
-                    Cape Quarter Spar
-                </p>
 
-                <p>
-                    January 2011 - December 2011
-                </p>
+                <article class="experience-card">
 
-                <p>
-                    Developed strong customer service and communication
-                    skills while assisting customers and processing
-                    transactions.
-                </p>
-            </article>
+                    <h3>Receptionist</h3>
+
+                    <p class="company">
+                        Bowarts Properties
+                    </p>
+
+                    <p class="date">
+                        January 2013 - May 2015
+                    </p>
+
+                    <p>
+                        Gained professional experience in administration,
+                        organisation, communication and working with clients.
+                    </p>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <h3>Cashier</h3>
+
+                    <p class="company">
+                        Cash Crusaders
+                    </p>
+
+                    <p class="date">
+                        January 2012 - December 2012
+                    </p>
+
+                    <p>
+                        Developed strong customer service and communication
+                        skills while assisting customers and processing
+                        transactions.
+                    </p>
+
+                </article>
+
+
+                <article class="experience-card">
+
+                    <h3>Cashier</h3>
+
+                    <p class="company">
+                        Cape Quarter Spar
+                    </p>
+
+                    <p class="date">
+                        January 2011 - December 2011
+                    </p>
+
+                    <p>
+                        Developed strong customer service and communication
+                        skills while assisting customers and processing
+                        transactions.
+                    </p>
+
+                </article>
+
+            </div>
 
         </section>
 
 
-        <!-- Education Section -->
+        <!-- ================= EDUCATION ================= -->
+
         <section id="education">
 
             <h2>Education</h2>
 
-            <article>
-                <h3>Software Development Program</h3>
+            <p class="section-intro">
+                My academic and software development training.
+            </p>
 
-                <p>
-                    UWC Samsung Future Innovation Lab
-                </p>
 
-                <p>
-                    May 2026 - February 2027
-                </p>
+            <div class="education-list">
 
-                <p>
-                    Currently developing my software development skills
-                    through practical programming and application development.
-                </p>
-            </article>
 
-            <article>
-                <h3>Software Engineer</h3>
+                <article class="education-card">
 
-                <p>
-                    WeThinkCode_
-                </p>
+                    <h3>Software Development Program</h3>
 
-                <p>
-                    September 2024 - December 2025
-                </p>
+                    <p class="institution">
+                        UWC Samsung Future Innovation Lab
+                    </p>
 
-                <p>
-                    Software engineering training covering programming,
-                    software development, databases, testing and
-                    engineering practices.
-                </p>
-            </article>
+                    <p class="date">
+                        May 2026 - February 2027
+                    </p>
 
-            <article>
-                <h3>Public Management</h3>
+                    <p>
+                        Currently developing my software development skills
+                        through practical programming and application
+                        development.
+                    </p>
 
-                <p>
-                    Northlink College
-                </p>
+                </article>
 
-                <p>
-                    January 2019 - October 2020
-                </p>
-            </article>
 
-            <article>
-                <h3>National Senior Certificate</h3>
+                <article class="education-card">
 
-                <p>
-                    Tuscany Glen High School
-                </p>
+                    <h3>Software Engineer</h3>
 
-                <p>
-                    January 2006 - December 2010
-                </p>
-            </article>
+                    <p class="institution">
+                        WeThinkCode_
+                    </p>
+
+                    <p class="date">
+                        September 2024 - December 2025
+                    </p>
+
+                    <p>
+                        Software engineering training covering programming,
+                        software development, databases, testing and
+                        engineering practices.
+                    </p>
+
+                </article>
+
+
+                <article class="education-card">
+
+                    <h3>Public Management</h3>
+
+                    <p class="institution">
+                        Northlink College
+                    </p>
+
+                    <p class="date">
+                        January 2019 - October 2020
+                    </p>
+
+                </article>
+
+
+                <article class="education-card">
+
+                    <h3>National Senior Certificate</h3>
+
+                    <p class="institution">
+                        Tuscany Glen High School
+                    </p>
+
+                    <p class="date">
+                        January 2006 - December 2010
+                    </p>
+
+                </article>
+
+            </div>
 
         </section>
 
 
-        <!-- Contact Section -->
+        <!-- ================= CONTACT ================= -->
+
         <section id="contact">
 
             <h2>Contact Me</h2>
 
-            <p>
+            <p class="section-intro">
                 I'd love to connect. You can reach me through the links below.
             </p>
 
-            <p>
-                <strong>Cellphone Number:</strong>
-                068 1558 223
-            </p>
 
-            <p>
-                <strong>Email:</strong>
-                <a href="mailto:svanwyk722@gmail.com">
-                    svanwyk722@gmail.com
-                </a>
-            </p>
+            <div class="contact-details">
 
-            <p>
-                <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/stacey-van-wyk-52507924a" target="_blank">
-                    LinkedIn
-                </a>
-            </p>
+                <p>
+                    <strong>Cellphone Number:</strong>
+                    068 1558 223
+                </p>
 
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/StaceyVanWyk" target="_blank">
-                    GitHub
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:svanwyk722@gmail.com">
+                        svanwyk722@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/stacey-van-wyk-52507924a"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/StaceyVanWyk"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </p>
+
+            </div>
+
+
+            <div class="contact-buttons">
+
+                <a href="mailto:svanwyk722@gmail.com"
+                    class="primary-button">
+                    Send Me a Message
                 </a>
-            </p>
+
+                <a href="#hero"
+                    class="secondary-button">
+                    Back to Top ↑
+                </a>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
-        <p>&copy; 2026 Stacey Van Wyk</p>
+        <p>
+            &copy; 2026 Stacey Van Wyk. All rights reserved.
+        </p>
 
     </footer>
+
 
 </body>
 
